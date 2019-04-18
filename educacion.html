@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Hoja de Vida Marco Ramirez</title>
+  </head>
+  <body>
+    <header>
+      <svg height="100px" width="100px">
+        <image xlink:href="images/logo.svg" width="100px" height="100px"> </image>
+      </svg>
+      <h1>Hoja de Vida</h1>
+
+        <h2>Nombre: Marco Ramirez Flores</h2>
+        <h3>Lugar y fecha de Nacimiento:  Quito, 25 de Junio de 1982 </h3>
+
+    </header>
+    <nav>
+      <a href="inicio.html"> Inicio </a>
+      |
+      <a href="educacion.html"> Educacion </a>
+      |
+      <a href="experiencia.html"> Experiencia </a>
+    </nav>
+    <h2>Educacion</h2>
+    <p>
+      <table border="1" cellpadding="10" cellspacing="0">
+        <thead>
+          <td><strong>Año</strong></td>
+          <td><strong>Institucion</strong></td>
+          <td><strong>Lugar</strong></td>
+          <td><strong>Culminó?</strong></td>
+        </thead>
+        <tbody>
+          <tr>
+          <td>2005</td>
+          <td>Universidad Tecnica del Norte</td>
+          <td>Ibarra - Ecuador</td>
+          <td>Ingenieria en Sistemas</td>
+          </tr>
+          <tr>
+          <td>2013</td>
+          <td>Businness Coaching School </td>
+          <td>Quito-Ecuador</td>
+          <td>Coach Ejecutivo Certificado</td>
+          </tr>
+          <tr>
+          <td>2015</td>
+          <td>PMI</td>
+          <td>Quito-Ecuador</td>
+          <td>PMP Certificado</td>
+          </tr>
+        </tbody>
+      </table>
+      </p>
+      <p>
+        <h2>Agregar Estudios</h2>
+        <form autocomplete="on" name="Formulario1">
+          <fieldset>
+            <label for="anio"> Año: </label>
+            <select class="anio" name="anio">
+              <option value="2015">2015</option>
+              <option value="2016">2016</option>
+              <option value="2017">2017</option>
+              <option value="2018">2018</option>
+            </select>
+            <br>
+            <br>
+            <label for="institucion"> Institucion: </label>
+            <input type="text" id="institucion" placeholder="Ej: Universidad Saleaiana" required>
+            <br>
+            <br>
+            <label for="lugar"> Lugar: </label>
+            <textarea name="comentarios" rows="4" cols="80" required></textarea>
+            <br>
+            <br>
+            <input type="submit" name="enviar" value="Enviar">
+
+
+          </fieldset>
+
+        </form>
+      </p>
+
+    <footer>
+      <p>
+        <strong>Contacto:</strong>
+          <br>
+        <strong>Correo:</strong> marco.rammirez@gmail.com
+          <br>
+        <strong>Telefono:</strong> 0996484568
+          <br>
+        <strong>Direccion:</strong> Quito, Calle Rafael Ramos E2-210 y Castelli, Edificio Farmaenlace Planta Baja
+      </p>
+    </footer>
+  </body>
+</html>
